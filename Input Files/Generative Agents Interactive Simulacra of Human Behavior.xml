@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+      
+      
+        
+            <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="journal-article">
+<front>
+<journal-meta>
+<publisher>
+<publisher-name>arXiv</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.48550/ARXIV.2304.03442</article-id>
+<title-group>
+<article-title>Generative Agents: Interactive Simulacra of Human Behavior</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+<surname>Park</surname>
+<given-names>Joon Sung</given-names>
+</name>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>O'Brien</surname>
+<given-names>Joseph C.</given-names>
+</name>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Cai</surname>
+<given-names>Carrie J.</given-names>
+</name>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Morris</surname>
+<given-names>Meredith Ringel</given-names>
+</name>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Liang</surname>
+<given-names>Percy</given-names>
+</name>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Bernstein</surname>
+<given-names>Michael S.</given-names>
+</name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub">
+<year>2023</year>
+</pub-date>
+<pub-date pub-type="Submitted">
+<day>07</day>
+<month>04</month>
+<year>2023</year>
+</pub-date>
+<pub-date pub-type="Updated">
+<day>10</day>
+<month>04</month>
+<year>2023</year>
+</pub-date>
+<pub-date pub-type="Submitted">
+<day>06</day>
+<month>08</month>
+<year>2023</year>
+</pub-date>
+<pub-date pub-type="Updated">
+<day>08</day>
+<month>08</month>
+<year>2023</year>
+</pub-date>
+<pub-date pub-type="Available">
+<month>04</month>
+<year>2023</year>
+</pub-date>
+<permissions>
+<license xlink:href="http://arxiv.org/licenses/nonexclusive-distrib/1.0/">
+<license-p>arXiv.org perpetual, non-exclusive license</license-p>
+</license>
+</permissions>
+<self-uri xlink:href="https://arxiv.org/abs/2304.03442"/>
+<abstract>
+<p>Believable proxies of human behavior can empower interactive applications ranging from immersive environments to rehearsal spaces for interpersonal communication to prototyping tools. In this paper, we introduce generative agents--computational software agents that simulate believable human behavior. Generative agents wake up, cook breakfast, and head to work; artists paint, while authors write; they form opinions, notice each other, and initiate conversations; they remember and reflect on days past as they plan the next day. To enable generative agents, we describe an architecture that extends a large language model to store a complete record of the agent's experiences using natural language, synthesize those memories over time into higher-level reflections, and retrieve them dynamically to plan behavior. We instantiate generative agents to populate an interactive sandbox environment inspired by The Sims, where end users can interact with a small town of twenty five agents using natural language. In an evaluation, these generative agents produce believable individual and emergent social behaviors: for example, starting with only a single user-specified notion that one agent wants to throw a Valentine's Day party, the agents autonomously spread invitations to the party over the next two days, make new acquaintances, ask each other out on dates to the party, and coordinate to show up for the party together at the right time. We demonstrate through ablation that the components of our agent architecture--observation, planning, and reflection--each contribute critically to the believability of agent behavior. By fusing large language models with computational, interactive agents, this work introduces architectural and interaction patterns for enabling believable simulations of human behavior.</p>
+</abstract>
+<kwd-group>
+<kwd>Human-Computer Interaction (cs.HC)</kwd>
+<kwd>Artificial Intelligence (cs.AI)</kwd>
+<kwd>Machine Learning (cs.LG)</kwd>
+<kwd>FOS: Computer and information sciences</kwd>
+</kwd-group>
+</article-meta>
+</front>
+</article>
+          
+      
+    

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="journal-article">
+<front>
+<journal-meta>
+<publisher>
+<publisher-name>arXiv</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.48550/ARXIV.1706.03762</article-id>
+<title-group>
+<article-title>Attention Is All You Need</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+<surname>Vaswani</surname>
+<given-names>Ashish</given-names>
+</name>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Shazeer</surname>
+<given-names>Noam</given-names>
+</name>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Parmar</surname>
+<given-names>Niki</given-names>
+</name>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Uszkoreit</surname>
+<given-names>Jakob</given-names>
+</name>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Jones</surname>
+<given-names>Llion</given-names>
+</name>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Gomez</surname>
+<given-names>Aidan N.</given-names>
+</name>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Kaiser</surname>
+<given-names>Lukasz</given-names>
+</name>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Polosukhin</surname>
+<given-names>Illia</given-names>
+</name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub">
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="Submitted">
+<day>12</day>
+<month>06</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="Updated">
+<day>13</day>
+<month>06</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="Submitted">
+<day>19</day>
+<month>06</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="Updated">
+<day>20</day>
+<month>06</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="Submitted">
+<day>20</day>
+<month>06</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="Updated">
+<day>21</day>
+<month>06</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="Submitted">
+<day>30</day>
+<month>06</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="Updated">
+<day>03</day>
+<month>07</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="Submitted">
+<day>06</day>
+<month>12</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="Updated">
+<day>07</day>
+<month>12</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="Available">
+<month>06</month>
+<year>2017</year>
+</pub-date>
+<permissions>
+<license xlink:href="http://arxiv.org/licenses/nonexclusive-distrib/1.0/">
+<license-p>arXiv.org perpetual, non-exclusive license</license-p>
+</license>
+</permissions>
+<abstract>
+<p>The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.</p>
+</abstract>
+<abstract>
+<p>15 pages, 5 figures</p>
+</abstract>
+<kwd-group>
+<kwd>Computation and Language (cs.CL)</kwd>
+<kwd>Machine Learning (cs.LG)</kwd>
+<kwd>FOS: Computer and information sciences</kwd>
+</kwd-group>
+</article-meta>
+</front>
+</article>
