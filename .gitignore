@@ -19,3 +19,6 @@ ENV/
 .DS_Store
 .vscode/
 .idea/
+
+# ChromaDB vector database
+data/vector_store/
